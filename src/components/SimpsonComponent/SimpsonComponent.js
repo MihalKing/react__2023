@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SimpsonComponent = (props) => {
-    const {image,id,name,status,gender,species} = props;
+    const {image, id, name, status, gender, species} = props;
     return (
         <div>
             <h2>{id}</h2>
