@@ -1,12 +1,12 @@
 import React from 'react';
-import {SimpsonComponent} from "./components/SimpsonComponent/SimpsonComponent";
-import {RickAndMortyComponent} from "./components/RickAndMortyComponent/RickAndMortyComponent";
+import {Simpson} from "./component/SimpsonComponent/Simpson";
+import {RickAndMortyComponent} from "./component/RickAndMortyComponent/RickAndMortyComponent";
 
 const App = () => {
     return (
         <div>
             <div>
-                <SimpsonComponent
+                <Simpson
                     id={'1'}
                     name={'Bart'}
                     status={false}
@@ -14,7 +14,7 @@ const App = () => {
                     species={'Human'}
                     image={'https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png'}
                 />
-                <SimpsonComponent
+                <Simpson
                     id={'2'}
                     name={'Lisa'}
                     status={false}
@@ -22,7 +22,7 @@ const App = () => {
                     species={'Human'}
                     image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMbnb4l-wKMLwrUpF2YLwHN6rGTajREpV1-fC8LrfIIcZDFq8Vdhhx9XA4UpHFv6h39E4&usqp=CAU'}
                 />
-                <SimpsonComponent
+                <Simpson
                     id={'3'}
                     name={'Meggie'}
                     status={false}
@@ -30,7 +30,7 @@ const App = () => {
                     species={'Human'}
                     image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPSEomrv9Qjedc1RibzFJ_-tRYYBZpa-Bt1Q&usqp=CAU'}
                 />
-                <SimpsonComponent
+                <Simpson
                     id={'4'}
                     name={'Marge'}
                     status={true}
@@ -38,7 +38,7 @@ const App = () => {
                     species={'Human'}
                     image={'https://upload.wikimedia.org/wikipedia/ru/0/0b/Marge_Simpson.png'}
                 />
-                <SimpsonComponent
+                <Simpson
                     id={'5'}
                     name={'Homer'}
                     status={true}

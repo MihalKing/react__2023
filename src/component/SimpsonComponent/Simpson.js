@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SimpsonComponent = (props) => {
+const Simpson = (props) => {
     const {image, id, name, status, gender, species} = props;
     return (
         <div>
@@ -14,4 +14,4 @@ const SimpsonComponent = (props) => {
     );
 };
 
-export {SimpsonComponent};
+export {Simpson};
