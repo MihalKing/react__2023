@@ -51,7 +51,7 @@ const Simpsons = () => {
     ]
     return (
         <div>
-            {simpsons.map(simpsons => Simpsons)<Simpson key={}/>
+
         </div>
     );
 };
