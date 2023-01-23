@@ -51,7 +51,10 @@ const Simpsons = () => {
     ]
     return (
         <div>
-
+            {simpsons.map(simpson => <Simpson key={simpson.id} name={simpson.name}
+            surname={simpson.surname} status={simpson.status} gender={simpson.gender}
+            specieles={simpson.species} image={simpson.image}
+            />)}
         </div>
     );
 };

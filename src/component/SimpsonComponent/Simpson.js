@@ -9,7 +9,7 @@ const Simpson = (props) => {
             <h4>{status}</h4>
             <h4>{gender}</h4>
             <h3>{species}</h3>
-            <img src={image} alt={''}/>
+            <img src={image} alt={name}/>
         </div>
     );
 };
