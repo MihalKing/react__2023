@@ -7,11 +7,7 @@ import {UserDetails} from "../userDetails/UserDetails";
 const Users = () => {
 
     const [users,setUsers] = useState([]);
-
     const [userDetails,setUserDetails] = useState(null);
-
-
-
 
     useEffect(()=> {
         {
