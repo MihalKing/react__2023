@@ -4,11 +4,14 @@
 
 
 
+import {User} from "./component/usersComponent/User/User";
+
 const App = () => {
 
     return (
         <div>
             {/*{<Launches/>}*/}
+            <User/>
 
         </div>
     );
