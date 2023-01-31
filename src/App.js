@@ -1,13 +1,15 @@
-import React from 'react';
-import {Users} from "./component/usersComponent/users/Users";
-import {Launches} from "./component/spacexComponent/launches/launches";
+
+// import {Launches} from "./component/spacexComponent/launches/launches";
+
+
 
 
 const App = () => {
+
     return (
         <div>
-            {<Launches/>}
-            {/*<Users/>*/}
+            {/*{<Launches/>}*/}
+
         </div>
     );
 };
