@@ -1,17 +1,13 @@
 
 // import {Launches} from "./component/spacexComponent/launches/launches";
-
-
-
-
-import {User} from "./component/usersComponent/User/User";
+import {Users} from "./component/usersComponent";
 
 const App = () => {
-
     return (
         <div>
             {/*{<Launches/>}*/}
-            <User/>
+            <Users/>
+
 
         </div>
     );
