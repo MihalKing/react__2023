@@ -1,14 +1,17 @@
 
-// import {Launches} from "./component/spacexComponent/launches/launches";
+
 import {Users} from "./component/usersComponent";
+import {Launches} from "./component/spacexComponent/Launches/Launches";
+import {UsersDetails} from "./component/userDetailsComponents/UsersDetails/UsersDetails";
+
 
 const App = () => {
+
     return (
         <div>
-            {/*{<Launches/>}*/}
-            <Users/>
-
-
+            {/*<Launches/>*/}
+            {/*<Users  />*/}
+            <UsersDetails/>
         </div>
     );
 };
