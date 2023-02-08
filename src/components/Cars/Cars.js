@@ -1,18 +1,11 @@
 import React from 'react';
-import {useEffect, useState} from 'react';
-import {carService} from "../../services";
 import {Car} from "../Car/Car";
 
-const Cars = () => {
-    const [cars,setCars] = useState([])
-
-    useEffect(()=> {
-        carService.getAll().then(({data}) => setCars([...data]))
-    },[])
+const Cars = ({cars,setUpdateCar,setCars}) => {
 
     return (
         <div>
-            {cars.map(car => <Car key={car.id} car={car}/>)}
+            {cars.map(car => <Car key={car.id} car={car} setUpdateCar={setUpdateCar} setCars={setCars}/>)}
         </div>
     );
 };
