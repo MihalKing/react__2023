@@ -2,8 +2,11 @@ import React from 'react';
 
 const NotFoundPage = () => {
     return (
-        <div>
-            
+        <div style={{
+            background:'red',
+            textAlign:'center'
+        }}>
+            Not Found Page!!!
         </div>
     );
 };
